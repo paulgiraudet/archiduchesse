@@ -1,29 +1,850 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Archiduchesse</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- ================= Header and nav ================ -->
+
+  <header>
+    <nav class="main_nav">
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Atelier</a></li>
+      </ul>
+    </nav>
+
+    <!-- mobile logo menu-->
+    <nav class="mobile">
+      <a class="menuButton" href=""><i class="fas fa-align-justify"></i></a>
+    </nav>
+
+    <!-- main svg archiduchesse -->
+    <div class ="logo_archi">
+        <img src="img/logo.svg" alt="logo archiduchesse">
+    </div>
+
+    <!-- connection and lang select -->
+    <div class="connection">
+        <p>Bienvenue, <a href="#">Connexion</a><a href="#">FR</a></p>
+    </div>
+
+    <!-- link to "boutique" and "panier" -->
+    <div class ="shop">
+      <a href="#" class="boutique"><img src="img/boutique.png" alt="Boutique"> Boutique </a>
+      <a href="#" class="panier"><img src="img/panier.png" alt="Panier"> Panier </a>
+    </div>
+  </header>
+
+  <nav class="secondary_nav">
+    <ul>
+      <li><a href ="#">Chaussettes</a></li>
+      <li><a href ="#">Collants</a></li>
+      <li><a href ="#">Espadrilles</a></li>
+      <li><a href ="#">Soldes</a></li>
+    </ul>
+  </nav>
+
+<!-- ================= Products ================ -->
+
+  <div class="container products">
+
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+              <a href="#"><img src="img/slider.png" alt="solde chaussette" ></a>
+          </div>
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of div product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+<!-- ================= New product ================ -->
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <!-- div img -->
+            <div class="product_img">
+              <img src="img/orange-pliee.jpg" alt="chaussette orange">
+            </div>
+            <!-- div with category and price -->
+            <div class="cate_price">
+
+              <div class="category">
+                <p>Bouclette</p>
+              </div>
+
+              <div class="price">
+                <p>7,00€</p>
+              </div>
+
+            </div>
+            <!-- span sizes -->
+            <div class="sizes">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      36
+                      <span class="sep_size"></span>
+                      41
+                    </span>
+                  </a>
+                </li>
+                <!-- first size -->
+                <li>
+                  <a href="#">
+                    <span>
+                      42
+                      <span class="sep_size"></span>
+                      46
+                    </span>
+                  </a>
+                </li>
+                <!-- second size -->
+              </ul>
+            </div>
+            <!-- end of div sizes -->
+          </div>
+          <!-- end of product -->
+
+      </div>
+      <!-- end of div row -->
+
+  </div>
+    <!-- end of div container -->
+
+<!-- ================= div articles ================ -->
+
+  <div class="container articles">
+
+      <!-- first article -->
+      <div class="col-lg-12 chaussette">
+
+          <h1>Chaussettes 100 % françaises</h1>
+
+          <p>Les chaussettes d’Archiduchesse, c’est un large choix de couleurs et de formes pour habiller vos pieds ! La boutique en ligne propose plus de 40 coloris et des modèles variés pour répondre à toutes les envies : chaussettes De ville lisses et hautes, chaussettes De luxe en fil d’Écosse, chaussettes Courtes, chaussettes Bouclettes douces et bien chaudes, chaussettes Fantaisie, socquettes invisibles et même collants. Nos chaussettes sont entièrement fabriquées en France, véritable gage de qualité. Et comme rien n’est trop beau pour vos jambes, Archiduchesse agrandit sa collection en été avec une gamme d’espadrilles, elles aussi 100 % made in France ! </p>
+
+      </div>
+
+      <div class="row">
+
+        <!-- second article -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+            <h2>Chaussettes taille 15 à 46</h2>
+
+            <p>Trouvez chaussettes à vos pieds avec Archiduchesse ! Chaussettes homme ou chaussettes femme, Archiduchesse vous propose une quarantaine de coloris dans toutes les tailles : du plus fun au plus classique. À vous de voir si vos chaussures s’accordent mieux avec un Beige café au lait, un Vert Anglais, un Ultra Violet, un Bleu ligne 13 ou un Gris Nocéros… Et parce que le style est aussi une affaire de goût et de confort, nos chaussettes homme et chaussettes femme se déclinent en différents modèles. Bien hautes pour couvrir la cheville ou au contraire taille socquette pour être invisibles en été : la chaussette s’adapte. Les frileux apprécieront la douillette gamme Bouclette, tandis que les raffinés préféreront les chaussettes fines en fil d’Écosse. Vous avez des enfants ? Offrez-leur des chaussettes branchées grâce à Archiduchesse ! La gamme De ville est disponible en tailles enfants dans 20 coloris différents… de quoi illuminer tous ces petits pieds !</p>
+
+        </div>
+
+        <!-- third article -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+
+            <h2>Chaussettes françaises… et collaboratives</h2>
+
+            <p>Sympathique et décalée, la marque Archiduchesse a mis un point d’honneur à proposer des chaussettes intégralement fabriquées en France. Dans le respect de l’environnement et de la santé, le coton est certifié OEKO-TEX® : un label qui garantit l’absence de substance nocive. Quant au tricotage, il revient à Broussaud Textiles : une entreprise limousine, complice d’Archiduchesse depuis le début de l’aventure et qui certifie les produits Origine France Garantie. Derrière les chaussettes Archiduchesse, il y a toute une communauté active ! Tout le monde peut créer son modèle de chaussette et le soumettre au vote : l’occasion unique de porter des chaussettes originales et personnalisées. La chaussette est devenue un accessoire qui compte !</p>
+
+        </div>
+
+        <!-- last article -->
+        <div class="col-sm-12 col-md-4">
+
+            <h2>Espadrilles ou collants made in France !</h2>
+
+            <p>Archiduchesse prend soin de vos pieds en toute saison et sous toutes les températures ! Au plus chaud de l’été, il y a les socquettes invisibles qui restent sous la cheville pour se cacher dans la chaussure et pour les adeptes du style pieds-nus, Archiduchesse propose également une gamme d’espadrilles tout droit venues du Sud-Ouest. Fabriquées à Mauléon, au Pays Basque, les espadrilles Archiduchesse mettent de la couleur à vos pieds : Orange Citrouille, Vert Pomme, Bleu Gitanes… Quand les premiers frimas de l’hiver glacent nos belles gambettes, Archiduchesse défie la grisaille avec une gamme de collants adultes Rouge Carmin, Jaune Moutarde, Purple Rain, Bleu Pétrole, Noir Réglisse. 100 % made in France, ces collants en microfibre protègent vos jambes du froid avec douceur.</p>
+
+        </div>
+
+      </div>
+      <!-- end of row -->
+
+  </div>
+  <!-- end of div articles -->
+
+<!-- ================= div svg and stuff ================ -->
+  <div class="container svg_stuff">
+
+    <div class="row">
+
+        <!-- fabrication française -->
+        <div class="col-sm-3 col-xs-6">
+
+            <img src="img/coq.svg" alt="coq fabrication francaise">
+            <p><a href="#">Fabrication Française</a></p>
+
+        </div>
+
+        <!-- retours et échanges -->
+        <div class="col-sm-3 col-xs-6">
+
+            <img src="img/retour.svg" alt="retour et échanges">
+            <p><a href="#">Retours et échanges</a></p>
+
+        </div>
+
+        <!-- paiement paypal -->
+        <div class="col-sm-3 col-xs-6">
+
+            <img src="img/paiement.svg" alt="paiement sécurisé paypal">
+            <p><a href="#">Paiement sécurisé</a></p>
+
+        </div>
+
+        <!-- livraison -->
+        <div class="col-sm-3 col-xs-6">
+
+            <img src="img/livraison.svg" alt="livraison france et europe">
+            <p><a href="#">Livraison 48/72h<br>offerte dès 46 € d'achat<br>(France et Europe)</a></p>
+
+        </div>
+
+    </div>
+    <!-- end of div row -->
+
+  </div>
+  <!-- end of div svg and stuff -->
+
+  <!-- ==========================================
+  put img-fluid on all img products + footer
+  ========================================== -->
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
