@@ -97,22 +97,282 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ==========================================================================
+    header
+  ========================================================================== */
 
+body{
+  font-family:serif;
+}
+header{
+  display:flex;
+  color:#777;
+  background-color: #f5f5f5;
+  width:100%;
+  height:110px;
+}
+.main_nav ul{
+  margin-left:-20px;
+}
+.main_nav li{
+  display:inline-block;
+  border-radius:0 0 5px 5px;
+  padding:2px;
+}
+.main_nav li a{
+  color:#444;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:0.9em;
+  text-decoration:none;
+}
+.main_nav li:hover{
+  background-color:#e7e7e7;
+}
+.logo_archi{
+  margin:auto;
+  padding-left:15%;
+}
+.logo_archi img{
+  height:75px;
+  width:auto;
+}
+.connection a{
+  color:#777;
+  text-decoration:none;
+  font-size:0.9em;
+}
+.connection a:hover{
+  color:#444;
+}
+.shop{
+  width:220px;
+  height:110px;
+}
+.shop ul{
+  display:flex;
+  list-style-type:none;
+}
+.boutique, .panier{
+  width:110px;
+  height:110px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.panier{
+  background-color:#e7e7e7;
+}
+.shop img{
+  width:70px;
+  height:70px;
+}
+.secondary_nav{
+  width:98%;
+  height:60px;
+  border-bottom:1px solid #e7e7e7;
+  display:block;
+  margin:auto;
+}
+.secondary_nav ul{
+  display:flex;
+  list-style-type: none;
+  position:relative;
+  left:-30px;
+}
+.secondary_nav li{
+  /* display:inline-block; */
+  margin-right:20px;
+}
+.secondary_nav a{
+  color:#444;
+  font-style: italic;
+  font-size:1.15em;
+  line-height:55px;
+}
 
+/* ==========================================================================
+    products
+  ========================================================================== */
 
+.products img{
+  width:100%;
+  height:100%;
+  transition:0.3s ease 0s;
+}
+.products{
+  margin-top:40px;
+}
+.product_img{
+  background-image:url("../img/orange-depliee.jpg");
+  background-size:cover;
+}
+.chaussette:hover img{
+  opacity:0;
+}
+.cate_price{
+  display:flex;
+  justify-content: space-around;
+}
+.category p{
+  font-size:12px;
+  color:#f0a213;
+  padding-right:15px;
+  border-right:1px solid #f0a213;;
+}
+.price p{
+  font-style:italic;
+  color:#f0a213;
+}
+.name_chaussette p{
+  text-align:center;
+  font-style: italic;
 
+}
+.shadow{
+    box-shadow: 0px 15px 15px -16px; rgba(0,0,0,1);
+    z-index:3;
+}
+.taille_chaussette{
+  display:flex;
+  justify-content: center;
+  padding-bottom:25px;
+}
+.smally, .bigy{
+  list-style-type: none;
+  padding:2px;
+  margin-top:-12px;
+}
+.smally li, .bigy li{
+  text-align:center;
+  background-color:#f0a213;
+  padding:4px;
+  line-height:10px;
+}
+.smally a, .bigy a{
+  color:white;
+  font-size:12px;
+}
+.smally li:first-child, .bigy li:first-child{
+  padding-top:7px;
+}
+.smally li:nth-child(2), .bigy li:nth-child(2){
+  margin-top:-15px;
+}
+.smally li:last-child, .bigy li:last-child{
+    border-radius:0 0 3px 3px;
+}
+/* ==========================================================================
+    articles
+  ========================================================================== */
+.articles{
+  border-top:1px solid #e7e7e7;
+  width:98%;
+  margin-top:30px;
+}
+.articles h1{
+  text-align:center;
+}
+.articles h2{
+  font-size:1.7em;
+}
+.articles p{
+  color:#777;
+}
 
+/* ==========================================================================
+    svg and stuff
+  ========================================================================== */
 
+.svg_stuff img{
+  width:80px;
+  height:auto;
+  /* display:block;
+  margin:auto; */
 
+}
+.svg_stuff p{
+  text-align:center;
+    margin-top:10px;
+}
+.svg_stuff a{
+  color:#777;
+}
+.svg{
+  height:250px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+/* ==========================================================================
+    footer
+  ========================================================================== */
 
+.footer_archi{
+  background-color: #f5f5f5;
+  padding: 0 30px 80px 30px;
+}
+.adresse{
+ padding-top:40px;
+}
+.archiduchesse, .collection, .information, .follow{
+  padding-top:50px;
+}
 
-
-
-
-
-
-
+.adresse img{
+  height:80px;
+  width:100%;
+  display:block;
+  margin:auto;
+}
+.adresse p{
+  text-align:center;
+  font-style:italic;
+  color:#777;
+  line-height:25px;
+  font-size:0.9em;
+}
+.footer_archi .title{
+  font-size:1.6em;
+  color:#444;
+}
+.footer_archi ul{
+  list-style-type: none;
+  padding:0;
+}
+.footer_archi a{
+  color:#777;
+  line-height:25px;
+}
+.follow p{
+  color:#777;
+}
+.social ul{
+  margin-top:20px;
+}
+.social ul li{
+  display:inline-block;
+  margin-right:5px;
+}
+.form_news input{
+  width:100%;
+  height:38px;
+}
+.form_news .button_news{
+  background-image: url("../img/mail.svg");
+  background-size:cover;
+  border:none;
+  width:28px;
+  height:21px;
+  color: #777;
+  padding: 2px 8px;
+  margin-left: 0;
+  position:absolute;
+  right:10%;
+  top:63.5%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -199,10 +459,31 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 576px) {
     /* Style adjustments for viewports that meet the condition */
+    .form_news .button_news{
+    position:absolute;
+    right:27%;
+    top:60%;
+  }
 }
-
+@media only screen and (max-width: 992px){
+  .follow{
+    text-align:center;
+    padding:50px 100px 0 100px;
+  }
+  .follow input{
+    width:80%;
+  }
+  .form_news .button_news{
+  position:absolute;
+  right:27%;
+  top:60%;
+}
+  .information, .archiduchesse, .collection{
+    text-align:center;
+  }
+}
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
