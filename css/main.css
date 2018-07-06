@@ -483,6 +483,24 @@ header{
   .information, .archiduchesse, .collection{
     text-align:center;
   }
+  .main_nav, .connection, .boutique, .secondary_nav{
+    display:none;
+  }
+  .mobile i{
+    color:#444;
+    margin-top:20px;
+    margin-left:20px;
+  }
+  .panier{
+    position:absolute;
+    top:0;
+    right:0;
+  }
+}
+@media only screen and (min-width: 992px){
+  .mobile{
+    display:none;
+  }
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
