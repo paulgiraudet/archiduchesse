@@ -104,69 +104,74 @@ textarea {
 body{
   font-family:serif;
 }
+
 header{
   display:flex;
-  color:#777;
   background-color: #f5f5f5;
   width:100%;
   height:110px;
 }
+
 .main_nav ul{
   margin-left:-20px;
 }
+
 .main_nav li{
   display:inline-block;
   border-radius:0 0 5px 5px;
   padding:2px;
 }
+
 .main_nav li a{
-  color:#444;
   margin-left: 10px;
   margin-right: 10px;
   font-size:0.9em;
   text-decoration:none;
 }
-.main_nav li:hover{
+
+.main_nav li:hover,
+.panier{
   background-color:#e7e7e7;
 }
+
 .logo_archi{
   margin:auto;
-  padding-left:15%;
 }
+
 .logo_archi img{
   height:75px;
   width:auto;
 }
+
 .connection a{
-  color:#777;
   text-decoration:none;
   font-size:0.9em;
 }
-.connection a:hover{
-  color:#444;
-}
+
 .shop{
   width:220px;
   height:110px;
 }
+
 .shop ul{
   display:flex;
   list-style-type:none;
 }
-.boutique, .panier{
+
+.boutique,
+.panier{
   width:110px;
   height:110px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
-.panier{
-  background-color:#e7e7e7;
-}
+
 .shop img{
   width:70px;
   height:70px;
 }
+
 .secondary_nav{
   width:98%;
   height:60px;
@@ -174,19 +179,19 @@ header{
   display:block;
   margin:auto;
 }
+
 .secondary_nav ul{
   display:flex;
   list-style-type: none;
   position:relative;
   left:-30px;
 }
+
 .secondary_nav li{
-  /* display:inline-block; */
   margin-right:20px;
 }
+
 .secondary_nav a{
-  color:#444;
-  font-style: italic;
   font-size:1.15em;
   line-height:55px;
 }
@@ -195,73 +200,94 @@ header{
     products
   ========================================================================== */
 
+.products{
+  margin-top:40px;
+}
+
 .products img{
   width:100%;
   height:100%;
   transition:0.3s ease 0s;
 }
-.products{
-  margin-top:40px;
-}
+
 .product_img{
   background-image:url("../img/orange-depliee.jpg");
   background-size:cover;
 }
+
 .chaussette:hover img{
   opacity:0;
 }
+
 .cate_price{
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
 }
+
+.category, .price{
+  width:45%;
+}
+
+.price{
+  line-height: 17px;
+}
+
+.cate_price p{
+  color:#f0a213;
+}
+
 .category p{
   font-size:12px;
-  color:#f0a213;
   padding-right:15px;
   border-right:1px solid #f0a213;;
 }
-.price p{
-  font-style:italic;
-  color:#f0a213;
-}
-.name_chaussette p{
-  text-align:center;
-  font-style: italic;
 
-}
 .shadow{
-    box-shadow: 0px 15px 15px -16px; rgba(0,0,0,1);
-    z-index:3;
+    box-shadow: 0px 15px 15px -16px rgba(0,0,0,1);
 }
+
 .taille_chaussette{
   display:flex;
   justify-content: center;
   padding-bottom:25px;
 }
-.smally, .bigy{
+
+.smally,
+.bigy{
   list-style-type: none;
   padding:2px;
   margin-top:-12px;
 }
-.smally li, .bigy li{
+
+.smally li,
+.bigy li{
   text-align:center;
   background-color:#f0a213;
   padding:4px;
   line-height:10px;
 }
-.smally a, .bigy a{
+
+.smally a,
+.bigy a{
   color:white;
   font-size:12px;
 }
-.smally li:first-child, .bigy li:first-child{
+
+.smally li:first-child,
+.bigy li:first-child{
   padding-top:7px;
 }
-.smally li:nth-child(2), .bigy li:nth-child(2){
+
+.smally li:nth-child(2),
+.bigy li:nth-child(2){
   margin-top:-15px;
 }
-.smally li:last-child, .bigy li:last-child{
+
+.smally li:last-child,
+.bigy li:last-child{
     border-radius:0 0 3px 3px;
 }
+
 /* ==========================================================================
     articles
   ========================================================================== */
@@ -270,14 +296,9 @@ header{
   width:98%;
   margin-top:30px;
 }
-.articles h1{
-  text-align:center;
-}
+
 .articles h2{
   font-size:1.7em;
-}
-.articles p{
-  color:#777;
 }
 
 /* ==========================================================================
@@ -287,17 +308,12 @@ header{
 .svg_stuff img{
   width:80px;
   height:auto;
-  /* display:block;
-  margin:auto; */
-
 }
+
 .svg_stuff p{
-  text-align:center;
     margin-top:10px;
 }
-.svg_stuff a{
-  color:#777;
-}
+
 .svg{
   height:250px;
   display:flex;
@@ -314,10 +330,15 @@ header{
   background-color: #f5f5f5;
   padding: 0 30px 80px 30px;
 }
+
 .adresse{
  padding-top:40px;
 }
-.archiduchesse, .collection, .information, .follow{
+
+.archiduchesse,
+.collection,
+.information,
+.follow{
   padding-top:50px;
 }
 
@@ -327,39 +348,39 @@ header{
   display:block;
   margin:auto;
 }
+
 .adresse p{
-  text-align:center;
-  font-style:italic;
-  color:#777;
   line-height:25px;
   font-size:0.9em;
 }
+
 .footer_archi .title{
   font-size:1.6em;
-  color:#444;
 }
+
 .footer_archi ul{
   list-style-type: none;
   padding:0;
 }
+
 .footer_archi a{
-  color:#777;
   line-height:25px;
 }
-.follow p{
-  color:#777;
-}
+
 .social ul{
   margin-top:20px;
 }
+
 .social ul li{
   display:inline-block;
   margin-right:5px;
 }
+
 .form_news input{
   width:100%;
   height:38px;
 }
+
 .form_news .button_news{
   background-image: url("../img/mail.svg");
   background-size:cover;
@@ -373,6 +394,144 @@ header{
   right:10%;
   top:63.5%;
 }
+
+/* ==========================================================================
+    blog.html
+  ========================================================================== */
+
+/* ==========================================================================
+    article_blog
+  ========================================================================== */
+
+.button_p{
+  background-color:#e7e7e7;
+  width:100px;
+  height:30px;
+  line-height:35px;
+  text-align:center;
+  font-size:12px;
+  border-radius: 5px;
+  margin-top:40px;
+}
+
+.article_blog_1 p, .article_blog_2 p{
+  font-size: 0.9em;
+}
+
+.undertitle{
+  font-size:11px;
+  margin-top:-10px;
+}
+
+blockquote{
+  display:flex;
+}
+
+blockquote h2{
+  font-size:1.2em;
+  font-style:italic;
+  font-weight: bold;
+}
+
+blockquote img{
+  width:40px;
+  height:auto;
+}
+
+blockquote img:first-child{
+  margin-top:-20px;
+  margin-right:10px;
+}
+
+blockquote img:last-child{
+  transform:rotate(180deg);
+  margin-top:20px;
+  margin-left:10px;
+}
+
+.article_blog h3{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.last_img_blog{
+  width:100%;
+  height:auto;
+}
+
+/* ==========================================================================
+    aside
+  ========================================================================== */
+
+aside img {
+  width:40px;
+  height:auto;
+  position:relative;
+  top:42px;
+  left:-10px;
+}
+
+aside h4{
+  font-size: 1.2em;
+}
+
+aside h4, aside .undertitle, aside ul{
+  padding-left: 40px;
+}
+
+aside ul{
+  list-style-type: none;
+}
+
+aside ul li a{
+  color:#444;
+  font-size:0.9em;
+}
+
+/* ==========================================================================
+   repetitions
+   ========================================================================== */
+
+header,
+.articles p,
+.connection a,
+.svg_stuff a,
+.adresse p,
+.follow p,
+.footer_archi a,
+.article_blog h3,
+.undertitle,
+.article_blog_1 p,
+.article_blog_2 p,
+.button_p{
+  color:#777;
+}
+
+.connection a:hover,
+.main_nav li a,
+.secondary_nav a,
+.footer_archi .title,
+.undertitle a{
+  color:#444;
+}
+
+.name_chaussette p,
+.articles h1,
+.svg_stuff p,
+.adresse p,
+.cate_price p{
+  text-align:center;
+}
+
+.italic,
+.secondary_nav a,
+.price p,
+.name_chaussette p,
+.adresse p,
+.undertitle{
+  font-style: italic;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -460,47 +619,68 @@ header{
    ========================================================================== */
 
 @media only screen and (max-width: 576px) {
-    /* Style adjustments for viewports that meet the condition */
-    .form_news .button_news{
+
+  .form_news .button_news{
     position:absolute;
     right:27%;
     top:60%;
   }
+
+}
+@media only screen and (max-width:768px){
+  .information ul, .collection ul, .archiduchesse ul{
+    display:none;
+  }
+
+  .information .title, .collection .title, .archiduchesse .title{
+    text-decoration:underline;
+  }
+
 }
 @media only screen and (max-width: 992px){
+
   .follow{
     text-align:center;
     padding:50px 100px 0 100px;
   }
+
   .follow input{
     width:80%;
   }
+
   .form_news .button_news{
   position:absolute;
   right:27%;
   top:60%;
-}
+  }
+
   .information, .archiduchesse, .collection{
     text-align:center;
   }
+
   .main_nav, .connection, .boutique, .secondary_nav{
     display:none;
   }
+
   .mobile i{
     color:#444;
     margin-top:20px;
     margin-left:20px;
   }
+
   .panier{
     position:absolute;
     top:0;
     right:0;
   }
+
 }
 @media only screen and (min-width: 992px){
+
   .mobile{
     display:none;
   }
+
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
